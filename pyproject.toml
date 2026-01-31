@@ -26,7 +26,7 @@ dependencies = [
     'numpy',
     'astropy',
     'requests',
-    'yaml'
+    'pyyaml'
 ]
 
 [project.entry-points."console_scripts"]
