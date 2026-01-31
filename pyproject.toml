@@ -24,6 +24,13 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
+dependencies = [
+    'matplotlib',
+    'numpy',
+    'astropy',
+    'requests',
+    'yaml'
+]
 
 [project.entry-points."console_scripts"]
 TARDIS_Spectrum_Filtering = "TARDIS_Spectrum_Filtering.cli:main"
