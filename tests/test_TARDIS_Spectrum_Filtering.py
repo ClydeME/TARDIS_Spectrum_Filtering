@@ -5,7 +5,7 @@
 
 import unittest
 
-from TARDIS_Spectrum_Filtering import TARDIS_Spectrum_Filtering
+import TARDIS_Spectrum_Filtering
 
 
 class TestTardis_spectrum_filtering(unittest.TestCase):
