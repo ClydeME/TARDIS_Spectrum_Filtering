@@ -34,7 +34,7 @@ TARDIS_Spectrum_Filtering = "TARDIS_Spectrum_Filtering.cli:main"
 
 [project.optional-dependencies]
 all = [
-    "spectra-filtering[extra]",
+    "TARDIS_Spectrum_Filtering[extra]",
 ]
 
 extra = [

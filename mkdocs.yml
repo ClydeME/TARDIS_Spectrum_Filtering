@@ -1,8 +1,8 @@
-site_name: spectra-filtering
+site_name: TARDIS_Spectrum_Filtering
 site_description: Package used to apply telescope filters to spectra from Stars or Supernovae
 site_author: ClydeME
-site_url: https://ClydeME.github.io/spectra-filtering
-repo_url: https://github.com/ClydeME/spectra-filtering
+site_url: https://ClydeME.github.io/TARDIS_Spectrum_Filtering
+repo_url: https://github.com/ClydeME/TARDIS_Spectrum_Filtering
 
 copyright: "Copyright &copy; 2024 - 2024 Clyde Watson"
 
@@ -78,7 +78,7 @@ nav:
     - Contributing: contributing.md
     - FAQ: faq.md
     - Changelog: changelog.md
-    - Report Issues: https://github.com/ClydeME/spectra-filtering/issues
+    - Report Issues: https://github.com/ClydeME/TARDIS_Spectrum_Filtering/issues
     - Examples:
         - examples/intro.ipynb
     - API Reference:
