@@ -1,6 +1,6 @@
 [project]
-name = "spectra-filtering"
-version = "0.0.1"
+name = "TARDIS_Spectrum_Filtering"
+version = "1.0.0"
 dynamic = [
     "dependencies",
 ]
@@ -8,7 +8,7 @@ description = "Package used to apply telescope filters to spectra from Stars or 
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = [
-    "spectra-filtering",
+    "TARDIS_Spectrum_Filtering",
 ]
 license = {text = "MIT License"}
 authors = [
@@ -75,7 +75,7 @@ max-line-length = 88
 
 
 [project.urls]
-Homepage = "https://github.com/ClydeME/spectra-filtering"
+Homepage = "https://github.com/ClydeME/TARDIS_Spectrum_Filtering"
 
 [build-system]
 requires = ["setuptools>=64", "setuptools_scm>=8"]
