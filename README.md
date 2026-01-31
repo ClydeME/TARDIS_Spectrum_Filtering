@@ -9,9 +9,3 @@
 
 
 -   Free software: MIT License
--   Documentation: https://ClydeME.github.io/spectra-filtering
-    
-
-## Features
-
--   TODO
