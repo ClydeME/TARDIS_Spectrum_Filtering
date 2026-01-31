@@ -1,11 +1,11 @@
 # Changelog
 
-## v0.0.1 - Date
+## v1.0.1 - 1/31/2026
 
 **Improvement**:
 
--   TBD
+-   First Functional Release
 
 **New Features**:
 
--   TBD
+-   None
