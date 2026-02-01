@@ -5,7 +5,7 @@
 To install TARDIS-Spectrum-Filtering, run this command in your terminal:
 
 ```
-pip install spectra-filtering
+pip install TARDIS_Spectrum_Filtering
 ```
 
 This is the preferred method to install TARDIS-Spectrum-Filtering, as it will always install the most recent stable release.

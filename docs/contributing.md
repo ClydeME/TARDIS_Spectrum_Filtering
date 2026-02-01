@@ -9,7 +9,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at <https://github.com/ClydeME/spectra-filtering/issues>.
+Report bugs at <https://github.com/ClydeME/TARDIS_Spectrum_Filtering/issues>.
 
 If you are reporting a bug, please include:
 
@@ -36,7 +36,7 @@ in docstrings, or even on the web in blog posts, articles, and such.
 ### Submit Feedback
 
 The best way to send feedback is to file an issue at
-<https://github.com/ClydeME/spectra-filtering/issues>.
+<https://github.com/ClydeME/TARDIS_Spectrum_Filtering/issues>.
 
 If you are proposing a feature:
 
