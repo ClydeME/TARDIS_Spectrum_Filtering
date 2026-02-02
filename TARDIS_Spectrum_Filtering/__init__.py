@@ -2,4 +2,6 @@
 
 __author__ = """Clyde Watson"""
 __email__ = "clyde.n.watson@gmail.com"
-__version__ = "1.0.2"
+__version__ = "1.0.3"
+
+import Spectrum_Filtering

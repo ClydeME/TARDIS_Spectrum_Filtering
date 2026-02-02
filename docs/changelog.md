@@ -1,10 +1,10 @@
 # Changelog
 
-## v1.0.2 - 1/31/2026
+## v1.0.3 - 2/2/2026
 
 **Improvement**:
 
--   First Functional Release
+-   init file now imports package content 
 
 **New Features**:
 
