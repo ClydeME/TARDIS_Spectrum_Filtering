@@ -1,1 +1,1 @@
-from Spectrum_Filtering import (get_url_from_config, download_filter, get_filter, interp_filter, plot_filtered_spectrum, plot_filter)
+from .Spectrum_Filtering import (get_url_from_config, download_filter, get_filter, interp_filter, plot_filtered_spectrum, plot_filter)
