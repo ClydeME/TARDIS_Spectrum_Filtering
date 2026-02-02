@@ -1,6 +1,6 @@
 [project]
 name = "TARDIS_Spectrum_Filtering"
-version = "1.0.3"
+version = "1.0.4"
 description = "Package used to apply telescope filters to spectra from Stars or Supernovae"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -56,7 +56,7 @@ universal = true
 
 
 [tool.bumpversion]
-current_version = "0.0.1"
+current_version = "1.0.4"
 commit = true
 tag = true
 
