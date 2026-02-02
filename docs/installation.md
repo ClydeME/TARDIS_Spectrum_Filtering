@@ -17,5 +17,5 @@ If you don't have [pip](https://pip.pypa.io) installed, this [Python installatio
 To install TARDIS-Spectrum-Filtering from sources, run this command in your terminal:
 
 ```
-pip install git+https://github.com/ClydeME/spectra-filtering
+pip install git+https://github.com/ClydeME/TARDIS_Spectrum_Filtering
 ```
