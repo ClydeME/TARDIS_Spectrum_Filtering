@@ -83,28 +83,25 @@ def interp_filter(spectrum_to_filter, filter_name):
     return np.interp(spectrum_to_filter, wl, tr)
 
 # Function to apply filter to TARDIS Spectrum
-def apply_filter(spectrum, spectrum_virtual, spectrum_integrated, chosen_filter):
+def apply_filter(spectrum, chosen_filter):
     
     # Interpolate filter transmission values to match TARDIS Spectrum
     prepared_filter = interp_filter(spectrum.wavelength, chosen_filter)
     
     # Apply filter to TARDIS Spectrum
     filtered_spectrum = spectrum.luminosity_density_lambda * prepared_filter
-    filtered_spectrum_virt = spectrum_virtual.luminosity_density_lambda * prepared_filter
-    filtered_spec_integ = spectrum_integrated.luminosity_density_lambda * prepared_filter
-    return filtered_spectrum, filtered_spectrum_virt, filtered_spec_integ
+    return filtered_spectrum
 
 
 # Function to plot original TARDIS Spectrum
-def plot_original_spectrum(spectrum, spectrum_virtual, spectrum_integrated):
+def plot_original_spectrum(spectrum):
     # Plot TARDIS Spectrum before filtering
     plt.figure()
     plt.plot(spectrum.wavelength, spectrum.luminosity_density_lambda)
-    plt.plot(spectrum.wavelength, spectrum_virtual.luminosity_density_lambda)
-    plt.plot(spectrum.wavelength, spectrum_integrated.luminosity_density_lambda)
     plt.xlabel("Wavelength (Angstrom)")
     plt.ylabel("Luminosity Density (erg/s/Angstrom)")
     plt.title("Unfiltered TARDIS Spectrum")
+    plt.show()
 
 
 # Function to plot filter transmission curve
@@ -119,15 +116,13 @@ def plot_filter(spectrum, chosen_filter):
     plt.title("Filter Transmission Curve")
     plt.xlabel("Wavelength (Angstrom)")
     plt.ylabel("Transmission")
-
+    plt.show()
 
 # Function to plot the filtered spectrum
-def plot_filtered_spectrum(spectrum, spectrum_virtual, spectrum_integrated, chosen_filter):
+def plot_filtered_spectrum(spectrum, chosen_filter):
 
     plt.figure()
-    plt.plot(spectrum.wavelength, apply_filter(spectrum, spectrum_virtual, spectrum_integrated, chosen_filter)[0])
-    plt.plot(spectrum.wavelength, apply_filter(spectrum, spectrum_virtual, spectrum_integrated, chosen_filter)[1])
-    plt.plot(spectrum.wavelength, apply_filter(spectrum, spectrum_virtual, spectrum_integrated, chosen_filter)[2])
+    plt.plot(spectrum.wavelength, apply_filter(spectrum, chosen_filter))
     plt.xlabel("Wavelength (Angstrom)")
     plt.ylabel("Luminosity Density (erg/s/Angstrom)")
     plt.title("Filtered TARDIS Example Model Spectrum")
