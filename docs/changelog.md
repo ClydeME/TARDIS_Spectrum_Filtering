@@ -1,10 +1,10 @@
 # Changelog
 
-## v1.0.5 - 2/2/2026
+## v1.0.6 - 2/2/2026
 
 **Improvement**:
 
--   init file now imports package content 
+-   Re-attempt to release 1.0.6 
 
 **New Features**:
 
