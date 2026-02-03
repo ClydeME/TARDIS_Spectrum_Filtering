@@ -15,7 +15,7 @@
 
 -   Comes with the following functions:
 
-    -   get_url_from_config(config_file_path): Obtain the URL of the specturm filter file from the yml config file. returns url, safename. safename can be used in the download_filter function as filename
+    -   get_url_from_config(config_file_path): Obtain the URL of the spectrum filter file from the yml config file. returns url, safename. safename can be used in the download_filter function as filename
 
     -   download_filter(url, filename): Download the filter into the Filters/ Directory
 
